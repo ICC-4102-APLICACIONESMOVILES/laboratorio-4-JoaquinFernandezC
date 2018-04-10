@@ -130,6 +130,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.nav_form_list:
                 fragmentClass = FormListFragment.class;
                 break;
+            case R.id.nav_summary:
+                fragmentClass = SummaryFragment.class;
+                break;
             default:
                 fragmentClass = FormFragment.class;
 
